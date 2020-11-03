@@ -1,0 +1,10 @@
+footer {
+    background-image: url(assets/images/swirl_pattern.png);
+    color: #1E1E1E;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    background-color: black;
+}
