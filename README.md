@@ -19,4 +19,12 @@
 * Need an events?: Matei
 
 ## Framework
-* Bootstrap
+* Bootstrap for some parts of the style.
+
+## Process (we'll not keep this part)
+### J1
+
+* **Sifedine:** utilisation de bootstrap pour titres et images, a codé le css lui-même pour les events en faisant en sorte de ne pas rentrer en conflit avec bootstrap, est en train de travailler sur le responsive de sa partie
+* **Matei:** a essayé d'utiliser bootstrap au maximum, a fait les tailles des forms mais n'a pas encore réussi à les positionner, compte réessayer sans bootstrap
+* **Igor:** gestion des images et icônes du nav et footer, doit encore gérer les flexblox pour les placements, gérer le logo et gérer les fonts (n'a pas utilisé bootstrap)
+* **Audrey:** placement de des éléments constituant l'équipe via les flexblox bootstrap, style des images et modification des titres sans bootstrap, commencement du read me
