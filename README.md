@@ -1,8 +1,8 @@
-# Main-eventer
+# **Main-eventer**
 
-**Team**
+## Collaborateurs : 
 
 * Audrey G.
-* 
-* 
+* Sifedine
+* Matei
 * 
