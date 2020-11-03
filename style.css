@@ -4,3 +4,14 @@ footer {
     background-size: cover;
     background-position: center;
 }
+
+.bg-image{
+    background-image: url(assets/images/header_Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-color {
+    background-color: black;
+    opacity: 0.75;
+}
