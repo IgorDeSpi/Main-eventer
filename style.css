@@ -1,8 +1,24 @@
 @font-face {
-    font-family: "Confortaa";
-    src: url("/assets/fonts/Comfortaa-Regular.ttf") format("truetype");
+    font-family: 'Confortaa';
+    src: url("assets/fonts/Comfortaa-Regular.ttf") format("truetype");
 }
 
 h2 {
     font-family: 'Confortaa', sans-serif;
+}
+
+.img-our-team {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.h3-our-team {
+    width: min-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #af0101;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
 }
