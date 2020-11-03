@@ -5,6 +5,7 @@ footer {
     background-position: center;
 }
 
+
 .bg-image{
     background-image: url(assets/images/header_Background.jpg);
     background-size: cover;
@@ -14,4 +15,16 @@ footer {
 .bg-color {
     background-color: black;
     opacity: 0.75;
+}
+
+.text-color a:link{
+    color: #ffffff;
+}
+
+.text-color a:visited{
+    color:#ffffff;
+}
+
+.text-color a:hover{
+    color:#ffffff
 }
