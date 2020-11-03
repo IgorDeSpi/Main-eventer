@@ -1,8 +1,13 @@
+header{
+    height: 485px;
+    width: auto;
+}
 footer {
     background-image: url(assets/images/swirl_pattern.png);
     color: #1E1E1E;
-    background-size: cover;
-    background-position: center;
+    background-repeat: repeat;
+    height: 256px;
+    width: auto;
 }
 
 
@@ -15,6 +20,7 @@ footer {
 .bg-color {
     background-color: black;
     opacity: 0.75;
+    height: 485px;
 }
 
 .text-color a:link{
