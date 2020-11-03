@@ -1,8 +1,22 @@
 # **Main-eventer**
 
-## Collaborateurs : 
-The team:
+## The Team : 
 * Audrey Gilmant
+* Igor de Spirlet
 * Matei Popescu
 * Sifedine Hajji
-* Igor de Spirlet
+
+## Project managers :
+* **Project manager J1:** Audrey
+* **Project manager J2:** ...
+* **Project manager J3:** ...
+
+## Tasks distribution
+* Header & footer: Igor
+* Who we are: team
+* Our team: Audrey
+* Our events: Sifedine
+* Need an events?: Matei
+
+## Framework
+* Bootstrap
