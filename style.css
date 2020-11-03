@@ -28,3 +28,20 @@ footer {
 .text-color a:hover{
     color:#ffffff
 }
+
+.icones a:link{
+    color: rgb(0, 0, 0);
+}
+
+.icones a:visited{
+    color: rgb(0, 0, 0);
+}
+
+.icones a:hover{
+    color: rgb(0, 0, 0)
+}
+
+.icones{
+    font-size: 40px;
+    text-shadow: 2px 2px 4px #00ffff; 
+}
