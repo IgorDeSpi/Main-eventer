@@ -1,8 +1,8 @@
 # **Main-eventer**
 
 ## Collaborateurs : 
-
-* Audrey G.
-* Sifedine
-* Matei
-* 
+The team:
+* Audrey Gilmant
+* Matei Popescu
+* Sifedine Hajji
+* Igor de Spirlet
