@@ -1,7 +1,12 @@
-# Main-eventer
+
+# **Main-eventer**
 
 Group 7 
 =======
 
-Salut les gars c'est **Matei** 
-
+## Collaborateurs : 
+The team:
+* Audrey Gilmant
+* Matei Popescu
+* Sifedine Hajji
+* Igor de Spirlet
