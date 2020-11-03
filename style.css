@@ -31,4 +31,13 @@
 
 h2 {
     font-family: 'Confortaa', sans-serif;
+    text-decoration: underline red;
 }
+
+.form-events
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px
+}
+
