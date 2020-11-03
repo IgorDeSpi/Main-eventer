@@ -1,5 +1,6 @@
-# Main-eventer
+# **Main-eventer**
 
+## Collaborateurs : 
 The team:
 * Audrey Gilmant
 * Matei Popescu
