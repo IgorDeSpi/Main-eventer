@@ -3,5 +3,5 @@
 Group 7 
 =======
 
-Salut les gars c'est ** Matei ** 
+Salut les gars c'est **Matei** 
 
