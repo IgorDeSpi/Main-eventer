@@ -99,13 +99,8 @@ h2::after { /* underline smaller than title */
 
 .weare-container {
     padding: 50px;
-    border: 1px solid blue;
 }
 
-.my-col {
-    border: 1px solid blue;
-
-}
 
 .text-weare{
     font-family: Arial, Helvetica, sans-serif;
@@ -114,12 +109,17 @@ h2::after { /* underline smaller than title */
 
 .sticker{
     background-color: #AF0101;
-    margin: 3px solid white;
+    border: 2px solid white;
     color: white;
     width: 15%;
+    height: 55px;
     text-align: center;
     position: relative;
     top: 150px;
     left: 50px;
     z-index: 1;
+}
+
+.stickertext{
+
 }
