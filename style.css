@@ -2,10 +2,6 @@
     font-family: 'Confortaa';
     src: url("assets/fonts/Comfortaa-Regular.ttf") format("truetype");
 }
-h1 {
-    font-family:'Confortaa', sans-serif;
-    text-decoration:#9B0604 underline ;
-}
 h5 {
     background-color: #af0101;
     padding: 2%;
@@ -30,3 +26,26 @@ a {
 a:hover {
     color: #af0101;
 }
+
+main {
+    background-color: white;
+    padding: 5% 10% 5% 10%;
+}
+
+.maineventer-section { /* center h2 */
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Confortaa', sans-serif;
+    font-size: 50px;
+}
+
+h2::after { /* underline smaller than title */
+    content: '';
+    display: block;
+    width: 75%;
+    height: 3px;
+    background-color: #af0101;
+    margin: -3px auto;
