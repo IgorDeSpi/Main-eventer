@@ -10,18 +10,26 @@ main {
     padding: 5% 10% 5% 10%;
 }
 
-h2 {
-    font-family: 'Confortaa', sans-serif;
+.maineventer-section { /* center h2 */
     text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Confortaa', sans-serif;
     font-size: 50px;
 }
 
-.section-title-underline {
-    border-bottom: 3px solid #af0101;
+h2::after { /* underline smaller than title */
+    content: '';
+    display: block;
+    width: 75%;
+    height: 3px;
+    background-color: #af0101;
+    margin: -3px auto;
 }
 
 /* css section 'our team' */
-
 div.placement-our-team {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -57,5 +65,6 @@ div.placement-our-team section:first-child{
     color: #a1a1a1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+    text-align: justify;
 }
 /* css end section 'our team' */
