@@ -31,18 +31,25 @@
 
 h2 {
     font-family: 'Confortaa', sans-serif;
-    text-decoration: underline red;
 }
 
 .form-title{
     display: flex;
     justify-content: center;
+}
+
+.form-title1{
+    text-decoration: underline red;
     font-size: 50px;
+}
+
+.form-title2{
+    font-size: 50px;
+    
 }
 
 .form-container {
     padding: 80px;
-    border: 1px solid blue;
 }
 
 .form-row {
@@ -56,6 +63,7 @@ h2 {
 .form-border {
     border-radius: 20px;
     border-color: #af0101;
+    background-color: white;
 }
 
 .btn-primary,
