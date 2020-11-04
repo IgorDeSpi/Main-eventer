@@ -104,4 +104,22 @@ h2::after { /* underline smaller than title */
 
 .my-col {
     border: 1px solid blue;
+
+}
+
+.text-weare{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a1a1a1;
+}
+
+.sticker{
+    background-color: #AF0101;
+    margin: 3px solid white;
+    color: white;
+    width: 15%;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    z-index: 1;
 }
