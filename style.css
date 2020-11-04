@@ -23,6 +23,10 @@
 }
 */
 
+main {
+    background-color: white;
+    padding: 5% 10% 5% 10%;
+}
 
 @font-face {
     font-family: 'Confortaa';
@@ -49,7 +53,7 @@ h2 {
 }
 
 .form-container {
-    padding: 80px;
+    padding: 50px;
     margin-bottom: 50px;
 }
 
@@ -81,5 +85,5 @@ h2 {
     position: absolute;
     right: 35%;
     bottom: auto;
-    margin-top: 10px;
+    margin-top: 20px;
 }
