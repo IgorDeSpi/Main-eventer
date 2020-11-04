@@ -29,5 +29,4 @@
 * **Igor:** gestion des images et icônes du nav et footer, doit encore gérer les flexblox pour les placements, gérer le logo et gérer les fonts (n'a pas utilisé bootstrap)
 * **Audrey:** placement de des éléments constituant l'équipe via les flexblox bootstrap, style des images et modification des titres sans bootstrap, commencement du read me
 
-## Process (we'll not keep this part)
 ### J2
