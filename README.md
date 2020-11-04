@@ -13,13 +13,13 @@
 
 ## Tasks distribution
 * Header & footer: Igor
-* Who we are: team
+* Who we are: Matei
 * Our team: Audrey
 * Our events: Sifedine
 * Need an events?: Matei
 
 ## Framework
-* Bootstrap for some parts of the style.
+* Bootstrap for some parts (...).
 
 ## Process (we'll not keep this part)
 ### J1

@@ -4,12 +4,12 @@
 }
 
 /* general css */
-
 main {
     background-color: white;
     padding: 5% 10% 5% 10%;
 }
 
+/* h2 css */
 .maineventer-section { /* center h2 */
     text-align: center;
 }
@@ -28,6 +28,7 @@ h2::after { /* underline smaller than title */
     background-color: #af0101;
     margin: -3px auto;
 }
+/* end h2 css */
 
 /* css section 'our team' */
 div.placement-our-team {
