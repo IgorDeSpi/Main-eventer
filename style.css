@@ -2,12 +2,31 @@
     font-family: 'Confortaa';
     src: url("assets/fonts/Comfortaa-Regular.ttf") format("truetype");
 }
-h2 {
+h1 {
     font-family:'Confortaa', sans-serif;
     text-decoration:#9B0604 underline ;
 }
-.columns {
-    display: flex;
-    flex-flow: column row;
+h5 {
+    background-color: #af0101;
+    padding: 2%;
 }
 
+.cards {
+    padding: 30px;
+}
+
+.month {
+    color: #83C7F5;
+}
+.lorem  {
+    color: #C3C3C3;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: smaller;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: #af0101;
+}
