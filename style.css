@@ -11,22 +11,23 @@ footer {
     width: auto;
 }
 
+header img{
+    margin-left: auto;
+    margin-right: auto;
+}
 /*Empilement des images du header*/
 .bg-image{
     background-image: url(assets/images/header_Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    z-index: -2;
 }
 
 .bg-color {
-    background-color: black;
-    opacity: 0.75;
+    background-color: rgba(0, 0, 0, 0.8);
     height: 485px;
-    z-index: -1;
 }
 
-/* Code du logo Main Eventer*/
+/* Placement du logo Main Eventer*/
 .logo{
     display: flex;
     flex-direction: row;
@@ -39,16 +40,14 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    list-style: none;
+    width: 85%;
+    margin: 0px;
+    position: relative;
+    padding: 10px 0px 120px 0px;
 }
-
-.woup{
-    margin: 5px;
-    padding: 5px 10px 125px 10px;
-}
-
-.pouw{
-    margin: 5px;
-    padding: 5px 200px 125px 5px;
+.text-color a{
+    padding: 5px 10px 5px 10px;
 }
 
 .text-color a:link{
@@ -62,8 +61,6 @@ footer {
 .text-color a:hover{
     color:#ffffff
 }
-
-/*Définition de la couleur des icônes*/
 .icones a:link{
     color: rgb(0, 0, 0);
 }
@@ -78,5 +75,25 @@ footer {
 
 .icones{
     font-size: 40px;
-    text-shadow: 2px 2px 4px #00ffff; 
+}
+/*Placement des icônes*/
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.woup{
+    padding: 0px 40px;
+}
+
+/*placement des éléments du footer*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0px 0px 0px;
+    font-family: 'Confortaa', sans-serif;
 }
