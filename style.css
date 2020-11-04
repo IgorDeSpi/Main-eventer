@@ -1,3 +1,4 @@
+/*Définition de la taille du header et footer*/
 header{
     height: 485px;
     width: auto;
@@ -10,17 +11,44 @@ footer {
     width: auto;
 }
 
-
+/*Empilement des images du header*/
 .bg-image{
     background-image: url(assets/images/header_Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: -2;
 }
 
 .bg-color {
     background-color: black;
     opacity: 0.75;
     height: 485px;
+    z-index: -1;
+}
+
+/* Code du logo Main Eventer*/
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Définition de la taille, de la couleur et de la position des éléments du header*/
+.text-color{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.woup{
+    margin: 5px;
+    padding: 5px 10px 125px 10px;
+}
+
+.pouw{
+    margin: 5px;
+    padding: 5px 200px 125px 5px;
 }
 
 .text-color a:link{
@@ -35,6 +63,7 @@ footer {
     color:#ffffff
 }
 
+/*Définition de la couleur des icônes*/
 .icones a:link{
     color: rgb(0, 0, 0);
 }
