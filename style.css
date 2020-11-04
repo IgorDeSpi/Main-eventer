@@ -1,3 +1,5 @@
+/*NEED AN EVENT SECTION? */
+
 /*.form-title {
     display: flex;
     justify-content: center;
@@ -35,22 +37,26 @@ main {
 
 h2 {
     font-family: 'Confortaa', sans-serif;
+    display: inline-block;
+    font-size: 50px;
+
+}
+
+h2::after { /* underline smaller than title */
+    content: '';
+    display: block;
+    width: 75%;
+    height: 3px;
+    background-color: #af0101;
+    margin: -3px auto;
 }
 
 .form-title{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 
-.form-title1{
-    text-decoration: underline red;
-    font-size: 50px;
-}
-
-.form-title2{
-    font-size: 50px;
-    
-}
 
 .form-container {
     padding: 50px;
@@ -86,4 +92,16 @@ h2 {
     right: 35%;
     bottom: auto;
     margin-top: 20px;
+}
+
+
+/*WHO WE ARE SECTION */
+
+.weare-container {
+    padding: 50px;
+    border: 1px solid blue;
+}
+
+.my-col {
+    border: 1px solid blue;
 }
