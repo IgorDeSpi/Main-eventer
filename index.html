@@ -24,7 +24,7 @@
     <!--Section 'header'-->
     <!--Start of Igor's part-->
     <header class="bg-image">
-        <div class="bg-color">
+        <nav class="bg-color">
             <ul class="text-color">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Team</a></li>
@@ -32,7 +32,7 @@
                 <li><a href="#">Nous contacter</a></li>
             </ul>
             <img class="logo" src="assets/images/LOGO.png" alt="Logo" />
-        </div>
+        </nav>
     </header>
     <!--End section 'header'-->
     <!--End of Igor's part-->
@@ -42,20 +42,23 @@
 
         <!--Section 'who we are'-->
         <!--Start of Matei's part-->
-        <section class="sticker">
-            <p class="stickertext"> Best people agency in Belgium</p>
+        
 
-        </section>
         <section class="container weare-container maineventer-section">
 
             <div class="row justify-content-center">
-                <div class="col-sm-5">
-                    <img src="./assets/images/imageBiere28.png" alt="image bierre" /> </div>
+                <figure class="col-sm-5 position-relative weare-image">
+                    <img src="./assets/images/imageBiere28.png" alt="image bierre" /> 
 
-                <div class="col-sm-5 my-col">
-                    <h2 class="pb-5 pt-5"> Who we are... </h2>
+                    <figcaption class="sticker">
+                        <p class="stickertext"> Best people agency in Belgium</p>
+            
+                    </figcaption></figure>
 
-                    <p class="pt-5 text-weare"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+                <div class="col-md-5 my-col">
+                    <h2 class="pb-md-5 pt-5 weare-title"> Who we are... </h2>
+
+                    <p class="pt-5 text-weare text-weare1"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
                         assumenda dolorum delectus
                         illo
                         nulla sunt consectetur esse maxime laudantium libero nostrum, tenetur fuga numquam similique
@@ -66,7 +69,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-10 pt-3 text-weare">
+                <div class="col-10 pt-sm-3 text-weare text-weare2">
                     <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit earum similique sequi distinctio,
                         totam veritatis tempora, excepturi incidunt maiores blanditiis iure obcaecati hic nam, amet vero
                         rem architecto. Blanditiis sequi quia cumque. Quasi pariatur dolor veniam maxime iure doloremque
@@ -200,9 +203,10 @@
 
                 </div>
                 <div class="row justify-content-center form-group form-row">
-                    <div class="col-sm-3 ">
+                    <div class="col-sm-3 form-email">
                         <label for="email">Email Address</label>
-                        <input type="email" class="form-control form-border" id="email" placeholder="Email Address" required="true">
+                        <input type="email" class="form-control form-border" id="email" placeholder="Email Address"
+                            required="true">
                     </div>
                     <div class="col-sm-5"></div>
                 </div>
@@ -218,8 +222,8 @@
 
                 </div>
 
-                <button type="submit" value="SEND"
-                    class="btn-outline-danger form-border pull-right form-send">SEND</button>
+                    <button type="submit" value="SEND"
+                        class="btn-outline-danger form-border pull-right form-send">SEND</button>
             </form>
         </section>
         <!--End section 'need an event'-->
