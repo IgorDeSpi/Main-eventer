@@ -1,23 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <title>Main Eventer</title>
 </head>
+ 
 <body>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    
-    <!-- header -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 
+
+            <!-- header -->
+    <header class="bg-image">
+        <div class="bg-color">
+            <ul class="text-color">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+            <img class="logo" src="assets/images/LOGO.png" alt="Logo" />
+        </div>
+    </header>
+  
     <main>
+  
+
         <!-- 'who we are' -->
 
-        <!-- 'our team' -->
+<section class="sticker">
+<p class="stickertext"> Best people agency in Belgium</p>
+
+</section>
+        <section class="container weare-container maineventer-section">
+
+            <div class="row justify-content-center ">
+                <div class="col-5">
+                    <img src="./assets/images/imageBiere28.png" alt="image bierre" /> </div>
+
+                <div class="col-5 my-col">
+                            <h2 class="pb-5 pt-5"> Who we are... </h2>
+               
+                            <p class="pt-5 text-weare"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa assumenda dolorum delectus
+                                illo
+                                nulla sunt consectetur esse maxime laudantium libero nostrum, tenetur fuga numquam similique
+                                ut
+                                adipisci, iure perferendis voluptas! </p>
+                
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-10 pt-3 text-weare">
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit earum similique sequi distinctio, totam veritatis tempora, excepturi incidunt maiores blanditiis iure obcaecati hic nam, amet vero rem architecto. Blanditiis sequi quia cumque. Quasi pariatur dolor veniam maxime iure doloremque iste. Cupiditate, maxime omnis eligendi aliquid debitis doloribus ab hic? Quidem?</p>
+                </div>
+            </div>
+
+
+
+        </section>
+
 
         <!-- section 'our team' -->
         <section class="maineventer-section"> 
@@ -60,9 +113,63 @@
         <!-- 'our events' -->
 
         <!-- 'need an event?' -->
+
+        <section class="maineventer-section">
+            <section class="form-title">
+                <h2> Need an Event ?</h2>
+            </section>
+
+            <form class="container form-container">
+                <div class="row justify-content-center form-group form-row">
+                    <div class="col-3">
+                        <label for="name">First Name</label>
+                        <input type="text" class="form-control form-border" placeholder="First Name">
+                    </div>
+                    <div class="col-1"></div>
+                    <div class="col-3">
+                        <label for="name">Last Name</label>
+                        <input type="text" class="form-control form-border" placeholder="Last Name">
+                    </div>
+                    <div class="col-1"></div>
+
+                </div>
+                <div class="row justify-content-center form-group form-row">
+                    <div class="col-3 ">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control form-border" id="email" placeholder="Email Address">
+                    </div>
+                    <div class="col-5"></div>
+                </div>
+
+                <div class="row justify-content-center form-group align-items-stretch form-row-desc">
+                    <div class="col-6">
+
+                        <label>Description</label>
+                        <input type="text" class="form-control form-description form-border" id="Description"
+                            placeholder="Description">
+                    </div>
+                    <div class="col-2"></div>
+
+                </div>
+                
+                <button type="submit" value="SEND"
+                    class="btn-outline-danger form-border pull-right form-send">SEND</button>
+            </form>
+        </section>
+      
     </main>
+     <!-- footer -->
+        <footer>
+            <div>
+                <h1 class="footer">MAIN EVENTERS</h1>
+                <div class="icones">
+                    <a class="woup" href="#"><i title="Linkedin" class="fab fa-linkedin"></i></a>
+                    <a class="woup" href="#"><i title="Instagram" class="fab fa-instagram"></i></a>
+                    <a class="woup" href="#"><i title="Twitter" class="fab fa-twitter-square"></i></a>
+                    <a class="woup" href="#"><i title="Facebook" class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+    </body>
 
-    <!-- footer -->
-
-</body>
 </html>
