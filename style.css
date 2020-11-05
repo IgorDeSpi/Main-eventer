@@ -5,6 +5,7 @@
 }
 
 /*css Header code*/
+
 header{
     height: 485px;
     width: auto;
@@ -100,23 +101,35 @@ h2::after {
     padding: 50px;
 }
 
+.weare-title {
+    text-align: left;
+}
+
 .text-weare{
     font-family: Arial, Helvetica, sans-serif;
     color: #a1a1a1;
     text-align: justify;
+
 }
+
 
 .sticker{
     background-color: #AF0101;
-    border: 2px solid white;
+    border: 3px solid white;
     color: white;
-    width: 15%;
+    width: 45%;
     height: 55px;
     text-align: center;
-    position: relative;
-    top: 150px;
-    left: 50px;
+    position: absolute;
+    top: 85px;
+    left: -60px;
     z-index: 1;
+    
+}
+
+.stickertext {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 /*css end section 'who we are'*/
 
@@ -278,3 +291,69 @@ footer {
     font-family: 'Confortaa', sans-serif;
 }
 /*End of the css footer code*/
+
+
+/*Responsive changes*/
+
+@media screen and (max-width:720px){
+
+.text-color a{
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    display: inline-block;
+    font-family: 'Confortaa', sans-serif;
+    font-size: 30px;
+}
+
+.maineventer-image {
+    display: none;
+}
+.placement-our-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.maineventer-section {
+    margin: 0;
+    padding: 0;
+}
+
+.weare-container img{
+    width: 100%;
+}
+
+.woup {
+
+    padding: 20px ;
+}
+
+.form-email {
+    padding-top: 25px;
+}
+
+.sticker {
+    top: 260px;
+    left: 0px;
+    height: auto;
+    width: auto;
+
+}
+.stickertext {
+    padding: 5px;
+
+}
+div.placement-our-team {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.text-weare2 {
+    padding-bottom: 100px;
+}
+
+}
