@@ -5,6 +5,7 @@
 }
 
 /*css Header code*/
+
 header{
     height: 485px;
     width: auto;
@@ -278,3 +279,42 @@ footer {
     font-family: 'Confortaa', sans-serif;
 }
 /*End of the css footer code*/
+
+
+/*Responsive changes*/
+
+@media screen and (max-width:720px){
+
+.text-color a{
+    display: flex;
+    text-align: center;
+    margin: 0;
+
+}
+
+
+.maineventer-image {
+    display: none;
+}
+.placement-our-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.maineventer-section {
+    margin: 0;
+    padding: 0;
+}
+
+.weare-container img{
+    width: 100%;
+}
+
+.woup {
+
+    padding: 20px ;
+}
+
+
+}
