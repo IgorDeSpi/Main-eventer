@@ -1,7 +1,70 @@
-@font-face { /* load font for webpage */
+/* load font for webpage */
+@font-face { 
     font-family: 'Confortaa';
     src: url("assets/fonts/Comfortaa-Regular.ttf") format("truetype");
 }
+
+/*css Header code*/
+header{
+    height: 485px;
+    width: auto;
+}
+
+/*Stacking of header images*/
+header img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-image{
+    background-image: url(assets/images/header_Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-color {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 485px;
+}
+
+/*Placement of the Main Eventer logo*/
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Definition of size, colour and position of header elements*/
+.text-color{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    width: 85%;
+    margin: 0px;
+    position: relative;
+    padding: 10px 0px 120px 0px;
+}
+
+.text-color a{
+    padding: 5px 10px 5px 10px;
+}
+
+.text-color a:link{
+    color: #ffffff;
+}
+
+.text-color a:visited{
+    color:#ffffff;
+}
+
+.text-color a:hover{
+    color:#ffffff
+}
+/*End of the css Header code*/
+
 
 /* general css */
 main {
@@ -20,7 +83,8 @@ h2 {
     font-size: 50px;
 }
 
-h2::after { /* underline smaller than title */
+/* underline smaller than title */
+h2::after { 
     content: '';
     display: block;
     width: 75%;
@@ -29,6 +93,32 @@ h2::after { /* underline smaller than title */
     margin: -3px auto;
 }
 /* end h2 css */
+
+/*css section 'who we are'*/
+
+.weare-container {
+    padding: 50px;
+}
+
+.text-weare{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a1a1a1;
+    text-align: justify;
+}
+
+.sticker{
+    background-color: #AF0101;
+    border: 2px solid white;
+    color: white;
+    width: 15%;
+    height: 55px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    left: 50px;
+    z-index: 1;
+}
+/*css end section 'who we are'*/
 
 /* css section 'our team' */
 div.placement-our-team {
@@ -70,113 +160,38 @@ div.placement-our-team section:first-child{
 }
 /* css end section 'our team' */
 
-/*Définition de la taille du header et footer*/
-header{
-    height: 485px;
-    width: auto;
-}
-footer {
-    background-image: url(assets/images/swirl_pattern.png);
-    color: #1E1E1E;
-    background-repeat: repeat;
-    height: 256px;
-    width: auto;
+/*css section 'our events'*/ 
+h5 {
+    background-color: #af0101;
+    padding: 2%;
 }
 
-header img{
-    margin-left: auto;
-    margin-right: auto;
-}
-/*Empilement des images du header*/
-.bg-image{
-    background-image: url(assets/images/header_Background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.month {
+    color: #83C7F5;
 }
 
-.bg-color {
-    background-color: rgba(0, 0, 0, 0.8);
-    height: 485px;
+.lorem  {
+    color: #C3C3C3;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: smaller;
 }
 
-/* Placement du logo Main Eventer*/
-.logo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+a {
+    color: black;
 }
 
-/*Définition de la taille, de la couleur et de la position des éléments du header*/
-.text-color{
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    list-style: none;
-    width: 85%;
-    margin: 0px;
-    position: relative;
-    padding: 10px 0px 120px 0px;
+a:hover {
+    color: #af0101;
 }
-.text-color a{
-    padding: 5px 10px 5px 10px;
-}
-
-.text-color a:link{
-    color: #ffffff;
-}
-
-.text-color a:visited{
-    color:#ffffff;
-}
-
-.text-color a:hover{
-    color:#ffffff
-}
-.icones a:link{
-    color: rgb(0, 0, 0);
-}
-
-.icones a:visited{
-    color: rgb(0, 0, 0);
-}
-
-.icones a:hover{
-    color: rgb(0, 0, 0)
-}
-
-.icones{
-    font-size: 40px;
-}
-/*Placement des icônes*/
-.icones{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-}
-.woup{
-    padding: 0px 40px;
-}
-
-/*placement des éléments du footer*/
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 64px 0px 0px 0px;
-    font-family: 'Confortaa', sans-serif;
+/*end css section 'our events'*/
   
-/*NEED AN EVENT SECTION? */
-  
+/*css section 'need an event?'*/
 .form-title{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-
 
 .form-container {
     padding: 50px;
@@ -213,29 +228,53 @@ header img{
     bottom: auto;
     margin-top: 20px;
 }
+/*end css section 'need an event?*/
 
-
-/*WHO WE ARE SECTION */
-
-.weare-container {
-    padding: 50px;
+/*css footer code*/
+footer {
+    background-image: url(assets/images/swirl_pattern.png);
+    color: #1E1E1E;
+    background-repeat: repeat;
+    height: 256px;
+    width: auto;
 }
 
-
-.text-weare{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #a1a1a1;
+/*Color of the icones code*/
+.icones a:link{
+    color: rgb(0, 0, 0);
 }
 
-.sticker{
-    background-color: #AF0101;
-    border: 2px solid white;
-    color: white;
-    width: 15%;
-    height: 55px;
-    text-align: center;
-    position: relative;
-    top: 150px;
-    left: 50px;
-    z-index: 1;
+.icones a:visited{
+    color: rgb(0, 0, 0);
 }
+
+.icones a:hover{
+    color: rgb(0, 0, 0)
+}
+
+.icones{
+    font-size: 40px;
+}
+
+/*Icon placement*/
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.woup{
+    padding: 0px 40px;
+}
+
+/*Placement of the footer elements*/
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0px 0px 0px;
+    font-family: 'Confortaa', sans-serif;
+}
+/*End of the css footer code*/
