@@ -171,10 +171,11 @@ header img{
     align-items: center;
     padding: 64px 0px 0px 0px;
     font-family: 'Confortaa', sans-serif;
+}
   
   /*Our Events Section*/
   
-  h5 {
+h5 {
     background-color: #af0101;
     padding: 2%;
 }
