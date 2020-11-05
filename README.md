@@ -1,10 +1,6 @@
 # **Main-eventer**
 
 ## The Team : 
-Group 7 
-## Collaborateurs : 
-
-The team:
 * Audrey Gilmant
 * Igor de Spirlet
 * Matei Popescu
