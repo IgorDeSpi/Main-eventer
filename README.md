@@ -36,10 +36,11 @@ Merging was both easy and not easy. Communicating what we each needed exactly wa
 * Our team...: Audrey
 * Our events: Sifedine
 * Need an event?: Matei
-* Merging code: In team
+* Merging code: TEAM
 * Code cleaner: Igor
 * Read Me: Audrey
 * English Input: Matei
+* Responsive Editing: TEAM
 
 ## Framework
 * Bootstrap was used for the parts 'Who we are...', 'Our events' and 'Need an events?'.
