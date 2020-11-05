@@ -1,3 +1,4 @@
+
 @font-face { /* load font for webpage */
     font-family: 'Confortaa';
     src: url("assets/fonts/Comfortaa-Regular.ttf") format("truetype");
@@ -69,6 +70,8 @@ div.placement-our-team section:first-child{
     text-align: justify;
 }
 /* css end section 'our team' */
+
+
 
 /*Définition de la taille du header et footer*/
 header{
@@ -169,6 +172,33 @@ header img{
     padding: 64px 0px 0px 0px;
     font-family: 'Confortaa', sans-serif;
   
+  /*Our Events Section*/
+  
+  h5 {
+    background-color: #af0101;
+    padding: 2%;
+}
+
+.cards {
+    padding: 30px;
+}
+
+.month {
+    color: #83C7F5;
+}
+.lorem  {
+    color: #C3C3C3;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: smaller;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: #af0101;
+}
+  
 /*NEED AN EVENT SECTION? */
   
 .form-title{
@@ -239,3 +269,4 @@ header img{
     left: 50px;
     z-index: 1;
 }
+
