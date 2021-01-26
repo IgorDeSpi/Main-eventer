@@ -1,8 +1,8 @@
 # **Main-eventer**
 
-## The Team : 
+## The Result : 
 
-Group 7 
+You can [here](https://sifedine-hajji.github.io/Main-eventer/) find the result of our work
 
 ## Collaborators : 
 
